@@ -1,0 +1,19 @@
+Homework 2
+-Graphs
+
+Problema 1
+Pentru rezolvarea temei in Java, am folosit clasa MyScanner, respectiv metoda nextInt(),
+pentru a extrage inputul (numarul de distante si distantele, asociate unui ArrayList).
+Metoda getResult() va intoarce distantele scrise sub forma unei liste (nodurile sursa)
+de liste (nodurile destinatie). Radacina este considerata nodul de index 1. Se vor folosi
+urmatoarele varibile: distanta_curenta, incrementata la fiecare pas, folosita pentru a
+verifica distanta la care s-a ajuns; nod_curent folosit ca nod sursa, pentru a adauga
+la acesta nodul destinatie in cazul in care se verifica egaliatea de distanta; find care
+este setat la adevarat in cazul in care se gaseste cel putin o muchie la fiecare pas;
+ok care este setat la false in cazul de mai devreme si folosit pentru afisare (se va 
+intoarce o lista vida daca nu se poate realiza parcurgerea); nr este incrementat dupa 
+fiecare gasire a unei muchii si se verifica daca s-au parcurs toate distantele.
+Rezultatul metodei getResult va fi scris in metoda de scriere a outputului. In cazul in
+care nu se va putea realiza algoritmul pana la final (din getResult) si se va returna
+o lista vida, se scrie -1. Altfel, se va crea un arbore cu n noduri, deci n - 1 muchii si
+se va scrie pentru fiecare nod sursa, nodurile adiacente.
